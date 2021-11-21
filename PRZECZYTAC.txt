@@ -1,0 +1,4 @@
+kalkulator.py - zwyczajny kalkulator z obsluga bledow
+losowyciagznakow.py - program ktory z znakow z listy utworzy ciag znakow.
+
+W folderze System Kluczy znajduje sie caly projekt ktory narodzil sie podczas tworzenia pliku losowyciagznakow.py
