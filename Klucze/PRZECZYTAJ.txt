@@ -1,0 +1,16 @@
+Projekt polega na wygenerowaniu za pomoca pliku GenerowanieKlucza.py danej ilosci kluczy oraz pozniejszym w pliku SprawdzanieKluczy ich testowaniu.
+
+Jako bazy danych posluzylem sie plikiem database.py (to wlasnie tam znajduja sie wszystkie klucze)
+Kazda linijka jest dokladnie opisana, tak ze ktos kto nie mial nigdy stycznosci z programowaniem by zrozumial.
+W pliku GenerowanieKluczy sa 2 zmienne - KeyQuantity oraz singleKeyLenght, ktore moze pani zedytowac wedlug wlasnego uznania.
+Dodatkowo, zrobilem wlasna ala biblioteke z funkcjami oraz domyslnymi listami. (plik easydons.py, on tez jest dokladnie opisany poniewaz to wlasnie w nim znajduja sie najwazniejsze (tak na prawde to wszystkie) funkcje)
+
+Projekt bede jeszcze rozbudowywal (m.in korzystanie z bazy danych MySQL zamiast z pliku .py, oraz szyfrowanie kluczem RSA)
+
+Plik GenerowanieKlucza - sluzy do wygenerowania klucza oraz zapisaniu go do bazy danych
+Plik SprawdzanieKlucza - sluzy do sprawdzania kluczy, oraz do ich usuwaniu z bazy danych
+Plik database.py - baza danych, tam znajduje sie lista z kluczami
+Plik easydons.py - autorska ala biblioteka z przydatnymi funkcjami (rowniez bede ja rozbudowywal)
+folder __pycache__ - folder z niezbednymi plikami do prawidlowego dzialania programow
+
+W calym projekcie zastosowałem operacje na plikach, oraz obsługi błędu.
